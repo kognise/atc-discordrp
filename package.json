@@ -1,0 +1,22 @@
+{
+  "name": "atc-discordrp",
+  "productName": "ATC Discord Presence",
+  "author": "Kognise",
+  "description": "Nice Discord rich presences for virtual air traffic controllers.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "dependencies": {
+    "discord-rpc": "^3.2.0",
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.54",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.54",
+    "electron": "^12.0.4"
+  }
+}

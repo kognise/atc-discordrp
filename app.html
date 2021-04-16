@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <title>ATC Discord Presence</title>
+    <link rel='stylesheet' href='app.css'>
+    <meta http-equiv='Content-Security-Policy' content='script-src &apos;self&apos; &apos;unsafe-inline&apos;;'>
+  </head>
+  <body style='background: white;'>
+    <label>
+      Position:
+      <input type='text' id='position'>
+    </label>
+
+    <label>
+      Client:
+      <select id='client' value='vrc'>
+        <option value='vrc'>Virtual Radar Client</option>
+        <option value='euroscope'>EuroScope</option>
+        <option value='vstars'>vSTARS</option>
+        <option value='veram'>vERAM</option>
+        <option value='ivac'>IvAc</option>
+      </select>
+    </label>
+
+    <label>
+      Network:
+      <select id='network' value='vatsim'>
+        <option value='vatsim'>VATSIM</option>
+        <option value='ivao'>IVAO</option>
+        <option value='other'>Other</option>
+      </select>
+    </label>
+
+    <script src='app.js'></script>
+  </body>
+</html>
