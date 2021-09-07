@@ -6,6 +6,7 @@ fullClients = {
   vrc: 'Virtual Radar Client',
   euroscope: 'EuroScope',
   vstars: 'vSTARS',
+  vatSys: 'vatSys',
   veram: 'vERAM',
   ivac: 'IvAc'
 }
