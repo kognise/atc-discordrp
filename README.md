@@ -8,6 +8,7 @@ Nice Discord rich presences for virtual air traffic controllers.
 
 - Virtual Radar Client
 - EuroScope
+- VatSys
 - vSTARS
 - vERAM
 - IvAc
